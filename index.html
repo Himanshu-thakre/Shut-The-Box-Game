@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shut The Box Game</title>
+</head>
+
+<body>
+
+    <div class="start-window">
+        <div id="message">
+            <h4>HOW TO PLAY??</h4>
+            <ul>
+                <ol>
+                    <li>Roll the dices and add the numbers shown on dices.</li>
+                    <li>Flip down tiles whose numbers add up to the dice total (one tile or multiple) and submit it.</li>
+                    <li>Player 1, will play first until game overs.</li>
+                    <li>Game overs for each player when no move is possible or all tiles are shut.</li>
+                    <li>To know better how to play this game just google it or search it on youtube.</li>
+                    <li>
+                        Choose Mode:
+                        <select class="mode" name="Choose Mode">
+                            <option disabled selected>--Select--</option>
+                            <option id="91" value="9">1 Players 9 Tiles</option>
+                            <option id="121" value="12">1 Players 12 Tiles</option>
+                            <option id="92" value="9">2 Players 9 Tiles</option>
+                            <option id="122" value="12">2 Players 12 Tiles</option>
+                        </select>
+                    </li>
+                    <p>(Note: Volume up for better experience)</p>
+                </ol>
+            </ul>
+            <button id="begin">
+                BEGIN >>
+            </button>
+        </div>
+
+        <div id="back-message">
+            <h4>MAT KAR LALA...</h4>
+            <div id="back-meme">
+                <video id="back-meme-video" src="memes for game/back meme/2.mp4" muted loop autoplay playsinline></video>
+            </div>
+            <div id="buttons">
+                <button id="return">BACK TO GAME</button>
+                <button id="end">END</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="game">
+        <div class="score-board">
+            <div class="title">Shut The Box <sub>(By HT)</sub></div>
+            <div class="score">
+                <div class="player1">Player 1:
+                    <div id="score1">0</div>
+                </div>
+                <div class="player2">Player 2:
+                    <div id="score2">0</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="board">
+                <div class="game-board">
+                    <div id="line"></div>
+
+                    <div class="game-over-base">
+                        <div class="game-over2">
+                            <h4>Player 2 turn</h4>
+                            <button id="continue2">Continue</button>
+                        </div>
+
+                        <div class="game-over1">
+                            <h4>GAME OVER</h4>
+                            <div id="final-score">0</div>
+                            <button id="continue1">Show Score</button>
+                        </div>
+                    </div>
+
+                    <div id="rolled"></div>
+                    <div class="dices">
+                        <div id="meme-base">
+                            <video id="main-meme" playsinline></video>
+                        </div>
+                        <button id="roll-dice">Roll Dice</button>
+                        <span id="1"></span>
+                        <span id="2"></span>
+                        <button id="submit">Submit</button>
+                        <div id="wrong-combo">
+                            WRONG COMBINATION
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
