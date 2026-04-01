@@ -440,6 +440,7 @@ function wrongCombination() {
     let srcCode = Math.floor(Math.random() * 5) + 1;
     video.src = `memes for game/wrong combination/${srcCode}.mp4`;
     video.muted = false;
+    video.load();
     video.play();
     video.addEventListener("ended", () => {
         video.pause();
