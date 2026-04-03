@@ -438,7 +438,7 @@ function rolled12() {
 function wrongCombination() {
     meme.style.visibility = "visible";
     let srcCode = Math.floor(Math.random() * 5) + 1;
-    video.src = `memes for game/wrong combination/${srcCode}.mp4`;
+    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/all%20tiles%20down/${srcCode}.mp4`;
     video.muted = false;
     video.load();
     video.play();
