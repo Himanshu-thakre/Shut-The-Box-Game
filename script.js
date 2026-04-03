@@ -426,7 +426,7 @@ function finalOver() {
 function rolled12() {
     meme.style.visibility = "visible";
     let srcCode = Math.floor(Math.random() * 7) + 1;
-    video.src = `memes for game/rolled_12/${srcCode}.mp4`;
+    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/rolled_12/${srcCode}.mp4`;
     video.muted = false;
     video.play();
     video.addEventListener("ended", () => {
@@ -438,7 +438,7 @@ function rolled12() {
 function wrongCombination() {
     meme.style.visibility = "visible";
     let srcCode = Math.floor(Math.random() * 5) + 1;
-    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/all%20tiles%20down/${srcCode}.mp4`;
+    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/wrong%20combination/${srcCode}.mp4`;
     video.muted = false;
     video.load();
     video.play();
@@ -451,7 +451,7 @@ function wrongCombination() {
 function gameOverMeme() {
     meme.style.visibility = "visible";
     let srcCode = Math.floor(Math.random() * 5) + 1;
-    video.src = `memes for game/game over/${srcCode}.mp4`;
+    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/game%20over/${srcCode}.mp4`;
     video.muted = false;
     video.play();
     video.addEventListener("ended", () => {
@@ -463,7 +463,7 @@ function gameOverMeme() {
 function allTilesDown() {
     meme.style.visibility = "visible";
     let srcCode = Math.floor(Math.random() * 7) + 1;
-    video.src = `memes for game/all tiles down/${srcCode}.mp4`;
+    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/all%20tiles%20down/${srcCode}.mp4`;
     video.muted = false;
     video.play();
     video.addEventListener("ended", () => {
@@ -475,7 +475,7 @@ function allTilesDown() {
 function tripleDown() {
     meme.style.visibility = "visible";
     let srcCode = Math.floor(Math.random() * 10) + 1;
-    video.src = `memes for game/triple down/${srcCode}.mp4`;
+    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/triple%20down/${srcCode}.mp4`;
     video.muted = false;
     video.play();
     video.addEventListener("ended", () => {
@@ -487,7 +487,7 @@ function tripleDown() {
 function rolledSame() {
     meme.style.visibility = "visible";
     let srcCode = Math.floor(Math.random() * 10) + 1;
-    video.src = `memes for game/rolled same/${srcCode}.mp4`;
+    video.src = `https://github.com/Himanshu-thakre/Shut-The-Box-Game/raw/refs/heads/main/memes%20for%20game/rolled%20same/${srcCode}.mp4`;
     video.muted = false;
     video.play();
     video.addEventListener("ended", () => {
