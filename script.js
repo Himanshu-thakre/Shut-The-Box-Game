@@ -85,8 +85,8 @@ begin.addEventListener("click", e => {
 });
 
 // if try to escape the game
-landscape.addEventListener("change", e => {
-    if (!landscape.matches) {
+document.addEventListener("fullscreenchange", () => {
+    if (!document.fullscreenElement) {
         backAudio.play();
         game.style.display = "none";
         instructions.style.display = "none";
@@ -105,10 +105,9 @@ landscape.addEventListener("change", e => {
 
         endButton.addEventListener("click", e => {
             location.reload();
-        })
+        });
     }
 });
-
 
 // all the working of dice and action on rolled dice clicked
 for (let i = 0; i <= 1; i++) {
